@@ -91,41 +91,41 @@ function renderButtons() {
   //state.pepperoni ? document.querySelector('.btn.btn-pepperoni').classList.add('active') : document.querySelectorAll('.btn.btn-pepperoni').classList.remove('active')
   document.querySelectorAll('.btn-pepperoni').forEach((button) => {
     if (state.pepperoni) {
-      button.classList.add ('active')
+      button.classList.add('active')
     } else {
-      button.classList.remove ('active')
+      button.classList.remove('active')
     }
   });
 
   document.querySelectorAll('.btn-mushrooms').forEach((button) => {
     if (state.mushrooms) {
-      button.classList.add ('active')
+      button.classList.add('active')
     } else {
-      button.classList.remove ('active')
+      button.classList.remove('active')
     }
   });
 
   document.querySelectorAll('.btn-green-peppers').forEach((button) => {
     if (state.greenPeppers) {
-      button.classList.add ('active')
+      button.classList.add('active')
     } else {
-      button.classList.remove ('active')
+      button.classList.remove('active')
     }
   });
 
   document.querySelectorAll('.btn-sauce').forEach((button) => {
     if (state.whiteSauce) {
-      button.classList.add ('active')
+      button.classList.add('active')
     } else {
-      button.classList.remove ('active')
+      button.classList.remove('active')
     }
   });
 
   document.querySelectorAll('.btn-crust').forEach((button) => {
     if (state.glutenFreeCrust) {
-      button.classList.add ('active')
+      button.classList.add('active')
     } else {
-      button.classList.remove ('active')
+      button.classList.remove('active')
     }
   });
 }
